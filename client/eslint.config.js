@@ -14,14 +14,14 @@ export default [
     files: ['**/*.{ts,tsx}'],
     languageOptions: {
       parserOptions: {
-        ecmaFeatures: { jsx: true }
+        ecmaFeatures: { jsx: true },
       },
-      globals: globals.browser
+      globals: globals.browser,
     },
     plugins: {
       react,
       'react-hooks': reactHooks,
-      'jsx-a11y': jsxA11y
+      'jsx-a11y': jsxA11y,
     },
     rules: {
       // React 17+ behöver inte import React
@@ -29,15 +29,15 @@ export default [
 
       // Hooks regler
       'react-hooks/rules-of-hooks': 'error',
-      'react-hooks/exhaustive-deps': 'warn'
+      'react-hooks/exhaustive-deps': 'warn',
     },
     settings: {
       react: {
-        version: 'detect'
-      }
-    }
+        version: 'detect',
+      },
+    },
   },
 
   // Prettier sist, stänger av regler som krockar
-  eslintConfigPrettier
+  eslintConfigPrettier,
 ];
