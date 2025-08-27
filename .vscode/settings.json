@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "css.lint.unknownAtRules": "ignore",
+  "tailwindCSS.experimental.configFile": "./client/tailwind.config.ts"
+}
