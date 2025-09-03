@@ -1,7 +1,5 @@
-# Enforce LF line endings for all text files
 * text=auto eol=lf
 
-# Windows/Mac/Linux consistent handling
 *.sh text eol=lf
 *.ts text eol=lf
 *.tsx text eol=lf
