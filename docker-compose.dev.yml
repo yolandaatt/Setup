@@ -29,7 +29,6 @@ services:
     command: npm run dev -- --host 0.0.0.0
     env_file: [client/.env]
     environment:
-      # När båda kör i Compose, nå API:t via service-namn
       VITE_API_URL: http://server:3001
     volumes:
       - ./client:/app
